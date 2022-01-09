@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+  font-family: 'Poppins', Helvetica;
+  background-color: steelblue;
+  color: white;
+}
+
 code {
   background: #d0d0d5;
 }
@@ -14,6 +22,7 @@ code {
 
 textarea {
   width: 100%;
+  font-family: 'Poppins', Helvetica;
 }
 
 #user-stories {
@@ -30,6 +39,7 @@ textarea {
   display: flex;
   flex-direction: row;
   margin-left: 20px;
+  
 }
 
 #sudoku-grid {
@@ -83,6 +93,7 @@ td {
   width: 2em;
   height: 2em;
   text-align: center;
+  border-color: white;
 }
 
 .C1, .C2, .C3, .C4, .C5, .C6, .C7, .C8, .C9, .F1, .F2, .F3, .F4, .F5, .F6, .F7, .F8, .F9 {
